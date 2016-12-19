@@ -13,6 +13,10 @@ module.exports = function (source) {
         srcDir: this.context,
         type: extension
     }, query);
-
-    return preprocess.preprocess(source, context, options);
+    
+    if (source) {
+        return preprocess.preprocess(source, context, options);
+    } else {
+        return source;
+    }
 }
