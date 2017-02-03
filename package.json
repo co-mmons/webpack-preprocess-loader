@@ -1,5 +1,5 @@
 {
-    "name": "webpack-preprocess-loader",
+    "name": "@co.mmons/webpack-preprocess-loader",
     "version": "1.0.0",
     "author": "co.mmons",
     "private": false,
